@@ -411,20 +411,12 @@ a {
     bottom: 14rem; } }
 
 .carousel-footer {
-  margin-top: 31rem;
   position: absolute;
+  top: 90%;
   right: 15%;
   left: 15%;
   z-index: 10;
   color: #ffffff; }
-
-@media (min-width: 576px) {
-  .carousel-footer {
-    margin-top: 31.5rem; } }
-
-@media (min-width: 1200px) {
-  .carousel-footer {
-    margin-top: 37rem; } }
 
 /*FIN CAROUSEL*/
 #subtituloIndex {
@@ -538,6 +530,11 @@ a {
 .section_habilidades_barrafuente {
   font-size: 1rem; }
 
+@media (min-width: 992px) {
+  .section_habilidades {
+    margin-top: 2rem;
+    margin-bottom: 4rem; } }
+
 /*portafolio*/
 .subtituloPortafolio {
   text-align: center;
@@ -558,18 +555,26 @@ a {
   align-content: space-around; }
 
 .contenedorAppMovil {
-  padding: 10px;
+  padding: 20px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   flex-grow: 1; }
+  @media (min-width: 720px) {
+    .contenedorAppMovil {
+      padding: 10px; } }
+  @media (min-width: 992px) {
+    .contenedorAppMovil {
+      padding: 30px 70px; } }
 
 .appUno {
   width: 220px;
   height: 309px;
   flex-grow: 1; }
+  .appUno:hover {
+    border: 5px solid #f7f7f7; }
 
 .contenedorMagazine {
   padding: 10px;
@@ -584,9 +589,11 @@ a {
   width: 300px;
   height: 286px;
   flex-grow: 1; }
+  .magazine:hover {
+    border: 5px solid #f7f7f7; }
 
 .contenedorLush {
-  padding: 10px;
+  padding: 20px 10px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -598,6 +605,8 @@ a {
   width: 353px;
   height: 278px;
   flex-grow: 1; }
+  .lush:hover {
+    border: 5px solid #f7f7f7; }
 
 .contenedorRey {
   padding: 10px;
