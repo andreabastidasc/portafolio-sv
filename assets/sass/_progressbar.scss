@@ -75,39 +75,53 @@ $animation-delay: .7s;
         -webkit-animation-fill-mode: both;
         animation-fill-mode: both;
       }
-      #progress-html{
-        -webkit-animation-name: progress-html;
-        animation-name: progress-html;
+      #progress-ps{
+        -webkit-animation-name: progress-ps;
+        animation-name: progress-ps;
         -webkit-animation-delay: $animation-delay;
         animation-delay: $animation-delay;
       }
 
-      #progress-css{
-        -webkit-animation-name: progress-css;
-        animation-name: progress-css;
+      #progress-lr{
+        -webkit-animation-name: progress-lr;
+        animation-name: progress-lr;
         -webkit-animation-delay: $animation-delay*2;
         animation-delay: $animation-delay*2;
       }
 
-      #progress-javascript{
-        -webkit-animation-name: progress-javascript;
-        animation-name: progress-javascript;
+      #progress-ingles{
+        -webkit-animation-name: progress-ingles;
+        animation-name: progress-ingles;
         -webkit-animation-delay:$animation-delay*3;
         animation-delay: $animation-delay*3;
       }
 
-      #progress-php{
-        -webkit-animation-name: progress-php;
-        animation-name: progress-php;
+      #progress-illustrator{
+        -webkit-animation-name: progress-illustrator;
+        animation-name: progress-illustrator;
         -webkit-animation-delay: $animation-delay*4;
         animation-delay: $animation-delay*4;
       }
 
-      #progress-angular{
-        -webkit-animation-name: progress-angular;
-        animation-name: progress-angular;
+      #progress-redes{
+        -webkit-animation-name: progress-redes;
+        animation-name: progress-redes;
         -webkit-animation-delay: $animation-delay*5;
         animation-delay: $animation-delay*5;
+      }
+
+      #progress-dir{
+        -webkit-animation-name: progress-dir;
+        animation-name: progress-dir;
+        -webkit-animation-delay: $animation-delay*6;
+        animation-delay: $animation-delay*6;
+      }
+
+      #progress-foto{
+        -webkit-animation-name: progress-foto;
+        animation-name: progress-foto;
+        -webkit-animation-delay: $animation-delay*7;
+        animation-delay: $animation-delay*7;
       }
     }// end bar-container
   }
@@ -119,20 +133,28 @@ $animation-delay: .7s;
 .progressorange{background-color:$red;}
 .progressgreen{background-color:$red;}
 
-@-webkit-keyframes progress-html{0%{width: 0%;} 100%{ width: 100%;}}
-@-webkit-keyframes progress-css{0%{width: 0%;} 100%{ width: 90%;}}
-@-webkit-keyframes progress-javascript{0%{width: 0%;} 100%{ width: 70%;}}
-@-webkit-keyframes progress-php{0%{width: 0%;} 100%{ width: 55%;}}
-@-webkit-keyframes progress-angular{0%{width: 0%;} 100%{ width: 65%;}}
+@-webkit-keyframes progress-ps{0%{width: 0%;} 100%{ width: 75%;}}
+@-webkit-keyframes progress-lr{0%{width: 0%;} 100%{ width: 75%;}}
+@-webkit-keyframes progress-ingles{0%{width: 0%;} 100%{ width: 60%;}}
+@-webkit-keyframes progress-illustrator{0%{width: 0%;} 100%{ width: 50%;}}
+@-webkit-keyframes progress-redes{0%{width: 0%;} 100%{ width: 80%;}}
+@-webkit-keyframes progress-dir{0%{width: 0%;} 100%{ width: 90%;}}
+@-webkit-keyframes progress-foto{0%{width: 0%;} 100%{ width: 60%;}}
 
-@-moz-keyframes progress-html{0%{width: 0%;} 100%{ width: 100%;}}
-@-moz-keyframes progress-css{0%{width: 0%;} 100%{ width: 90%;}}
-@-moz-keyframes progress-javascript{0%{width: 0%;} 100%{ width: 70%;}}
-@-moz-keyframes progress-php{0%{width: 0%;} 100%{ width: 55%;}}
-@-moz-keyframes progress-angular{0%{width: 0%;} 100%{ width: 65%;}}
 
-@keyframes progress-html{0%{width: 0%;} 100%{ width: 100%;}}
-@keyframes progress-css{0%{width: 0%;} 100%{ width: 90%;}}
-@keyframes progress-javascript{0%{width: 0%;} 100%{ width: 70%;}}
-@keyframes progress-php{0%{width: 0%;} 100%{ width: 55%;}}
-@keyframes progress-angular{0%{width: 0%;} 100%{ width: 65%;}}
+@-moz-keyframes progress-ps{0%{width: 0%;} 100%{ width: 75%;}}
+@-moz-keyframes progress-lr{0%{width: 0%;} 100%{ width: 75%;}}
+@-moz-keyframes progress-ingles{0%{width: 0%;} 100%{ width: 60%;}}
+@-moz-keyframes progress-illustrator{0%{width: 0%;} 100%{ width: 50%;}}
+@-moz-keyframes progress-redes{0%{width: 0%;} 100%{ width: 80%;}}
+@-moz-keyframes progress-dir{0%{width: 0%;} 100%{ width: 90%;}}
+@-moz-keyframes progress-foto{0%{width: 0%;} 100%{ width: 60%;}}
+
+
+@keyframes progress-ps{0%{width: 0%;} 100%{ width: 75%;}}
+@keyframes progress-lr{0%{width: 0%;} 100%{ width: 75%;}}
+@keyframes progress-ingles{0%{width: 0%;} 100%{ width: 60%;}}
+@keyframes progress-illustrator{0%{width: 0%;} 100%{ width: 50%;}}
+@keyframes progress-redes{0%{width: 0%;} 100%{ width: 80%;}}
+@keyframes progress-dir{0%{width: 0%;} 100%{ width: 90%;}}
+@keyframes progress-foto{0%{width: 0%;} 100%{ width: 60%;}}

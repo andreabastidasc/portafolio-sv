@@ -1,9 +1,11 @@
 var lang = {
-    "html": "100%",
-    "css": "90%",
-    "javascript": "70%",
-    "php": "55%",
-    "angular": "65%"
+    "photoshop": "75%",
+    "lightroom": "75%",
+    "ingles": "60%",
+    "illustrator": "50%",
+    "redes": "80%",
+    "dir": "90%",
+    "foto": "60%"
 };
   
   var multiply = 4;
