@@ -230,39 +230,39 @@ body.lb-disable-scrolling {
         animation-timing-function: ease-out;
         -webkit-animation-fill-mode: both;
         animation-fill-mode: both; }
-      .skills-bar-container li .bar-container #progress-ps {
-        -webkit-animation-name: progress-ps;
-        animation-name: progress-ps;
-        -webkit-animation-delay: 0.7s;
-        animation-delay: 0.7s; }
-      .skills-bar-container li .bar-container #progress-lr {
-        -webkit-animation-name: progress-lr;
-        animation-name: progress-lr;
-        -webkit-animation-delay: 1.4s;
-        animation-delay: 1.4s; }
-      .skills-bar-container li .bar-container #progress-ingles {
-        -webkit-animation-name: progress-ingles;
-        animation-name: progress-ingles;
-        -webkit-animation-delay: 2.1s;
-        animation-delay: 2.1s; }
-      .skills-bar-container li .bar-container #progress-illustrator {
-        -webkit-animation-name: progress-illustrator;
-        animation-name: progress-illustrator;
-        -webkit-animation-delay: 2.8s;
-        animation-delay: 2.8s; }
-      .skills-bar-container li .bar-container #progress-redes {
-        -webkit-animation-name: progress-redes;
-        animation-name: progress-redes;
-        -webkit-animation-delay: 3.5s;
-        animation-delay: 3.5s; }
       .skills-bar-container li .bar-container #progress-dir {
         -webkit-animation-name: progress-dir;
         animation-name: progress-dir;
-        -webkit-animation-delay: 4.2s;
-        animation-delay: 4.2s; }
+        -webkit-animation-delay: 0.7s;
+        animation-delay: 0.7s; }
+      .skills-bar-container li .bar-container #progress-ps {
+        -webkit-animation-name: progress-ps;
+        animation-name: progress-ps;
+        -webkit-animation-delay: 1.4s;
+        animation-delay: 1.4s; }
       .skills-bar-container li .bar-container #progress-foto {
         -webkit-animation-name: progress-foto;
         animation-name: progress-foto;
+        -webkit-animation-delay: 2.1s;
+        animation-delay: 2.1s; }
+      .skills-bar-container li .bar-container #progress-lr {
+        -webkit-animation-name: progress-lr;
+        animation-name: progress-lr;
+        -webkit-animation-delay: 2.8s;
+        animation-delay: 2.8s; }
+      .skills-bar-container li .bar-container #progress-illustrator {
+        -webkit-animation-name: progress-illustrator;
+        animation-name: progress-illustrator;
+        -webkit-animation-delay: 3.5s;
+        animation-delay: 3.5s; }
+      .skills-bar-container li .bar-container #progress-redes {
+        -webkit-animation-name: progress-redes;
+        animation-name: progress-redes;
+        -webkit-animation-delay: 4.2s;
+        animation-delay: 4.2s; }
+      .skills-bar-container li .bar-container #progress-ingles {
+        -webkit-animation-name: progress-ingles;
+        animation-name: progress-ingles;
         -webkit-animation-delay: 4.9s;
         animation-delay: 4.9s; }
 
@@ -450,11 +450,10 @@ a {
   background-image: url(../../img/Magazine-Mockup-carousel.jpg); }
 
 .carousel-caption {
-  bottom: 12rem; }
-
-@media (min-width: 1200px) {
-  .carousel-caption {
-    bottom: 14rem; } }
+  position: absolute;
+  top: 35%;
+  right: 15%;
+  left: 15%; }
 
 .carousel-footer {
   position: absolute;
@@ -469,10 +468,9 @@ a {
   font-family: 'julius sans one', sans-serif;
   font-size: 1.5rem;
   font-weight: bolder; }
-
-@media (min-width: 992px) {
-  #subtituloIndex {
-    font-size: 2rem; } }
+  @media (min-width: 992px) {
+    #subtituloIndex {
+      font-size: 2rem; } }
 
 #botonIndex {
   background-color: #FFD2A8;
@@ -491,10 +489,9 @@ a {
 /*barra de navegación*/
 .navbar {
   padding: .5rem 1rem .5rem 1rem; }
-
-@media (min-width: 992px) {
-  .navbar {
-    height: 4rem; } }
+  @media (min-width: 992px) {
+    .navbar {
+      height: 4rem; } }
 
 .nav-item {
   font-size: 1rem;
@@ -511,11 +508,10 @@ a {
 .navbar-toggler-icon {
   width: 1.5em;
   height: 1.5em; }
-
-@media (min-width: 576px) {
-  .navbar-toggler-icon {
-    width: 3em;
-    height: 3em; } }
+  @media (min-width: 576px) {
+    .navbar-toggler-icon {
+      width: 3em;
+      height: 3em; } }
 
 /*titulo de cada una de las páginas. excepto para el index*/
 .tituloDePagina {
@@ -548,7 +544,7 @@ a {
 
 @media (min-width: 1200px) {
   .main_sobremi_descripcion {
-    font-size: 1.7rem; } }
+    font-size: 1.3rem; } }
 
 .main_sobremi_contenedor_fotopersonal {
   padding: 1rem 6rem 0rem;
@@ -592,6 +588,14 @@ a {
 #mainPortafolio {
   padding: 20px; }
 
+.descripcion_portafolio {
+  font: lighter 1rem 'julius sans one';
+  padding-top: 10px; }
+  @media (min-width: 720px) {
+    .descripcion_portafolio {
+      padding: 10px 50px;
+      font-size: 1.3rem; } }
+
 #contenedorPortafolio {
   display: flex;
   flex-direction: row;
@@ -613,7 +617,7 @@ a {
       padding: 10px; } }
   @media (min-width: 992px) {
     .contenedorAppMovil {
-      padding: 30px 70px; } }
+      padding: 30px 10px; } }
 
 .appUno {
   width: 220px;
@@ -622,30 +626,12 @@ a {
   .appUno:hover {
     border: 5px solid #f7f7f7; }
 
-.contenedorMagazine {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1; }
-
 .magazine {
   width: 300px;
   height: 286px;
   flex-grow: 1; }
   .magazine:hover {
     border: 5px solid #f7f7f7; }
-
-.contenedorLush {
-  padding: 20px 10px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-grow: 1; }
 
 .lush {
   width: 353px;
@@ -655,16 +641,13 @@ a {
     border: 5px solid #f7f7f7; }
 
 .contenedorBizia {
-  padding: 10px;
+  padding: 20px 10px;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
   align-items: center;
   flex-grow: 1; }
-
-.video_main_bizia {
-  height: auto; }
 
 .bizia {
   width: 328px;
@@ -673,20 +656,6 @@ a {
   object-fit: cover; }
   .bizia:hover {
     border: 5px solid #f7f7f7; }
-
-.contenedorGatorade {
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1; }
-
-.kitkat {
-  flex-grow: 1;
-  width: 443px;
-  height: auto; }
 
 /*Fotografía*/
 .main_fotografia_botones {

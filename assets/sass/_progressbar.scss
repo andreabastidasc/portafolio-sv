@@ -75,51 +75,51 @@ $animation-delay: .7s;
         -webkit-animation-fill-mode: both;
         animation-fill-mode: both;
       }
-      #progress-ps{
-        -webkit-animation-name: progress-ps;
-        animation-name: progress-ps;
+      #progress-dir{
+        -webkit-animation-name: progress-dir;
+        animation-name: progress-dir;
         -webkit-animation-delay: $animation-delay;
         animation-delay: $animation-delay;
       }
 
-      #progress-lr{
-        -webkit-animation-name: progress-lr;
-        animation-name: progress-lr;
+      #progress-ps{
+        -webkit-animation-name: progress-ps;
+        animation-name: progress-ps;
         -webkit-animation-delay: $animation-delay*2;
         animation-delay: $animation-delay*2;
-      }
-
-      #progress-ingles{
-        -webkit-animation-name: progress-ingles;
-        animation-name: progress-ingles;
-        -webkit-animation-delay:$animation-delay*3;
-        animation-delay: $animation-delay*3;
-      }
-
-      #progress-illustrator{
-        -webkit-animation-name: progress-illustrator;
-        animation-name: progress-illustrator;
-        -webkit-animation-delay: $animation-delay*4;
-        animation-delay: $animation-delay*4;
-      }
-
-      #progress-redes{
-        -webkit-animation-name: progress-redes;
-        animation-name: progress-redes;
-        -webkit-animation-delay: $animation-delay*5;
-        animation-delay: $animation-delay*5;
-      }
-
-      #progress-dir{
-        -webkit-animation-name: progress-dir;
-        animation-name: progress-dir;
-        -webkit-animation-delay: $animation-delay*6;
-        animation-delay: $animation-delay*6;
       }
 
       #progress-foto{
         -webkit-animation-name: progress-foto;
         animation-name: progress-foto;
+        -webkit-animation-delay:$animation-delay*3;
+        animation-delay: $animation-delay*3;
+      }
+
+      #progress-lr{
+        -webkit-animation-name: progress-lr;
+        animation-name: progress-lr;
+        -webkit-animation-delay: $animation-delay*4;
+        animation-delay: $animation-delay*4;
+      }
+
+      #progress-illustrator{
+        -webkit-animation-name: progress-illustrator;
+        animation-name: progress-illustrator;
+        -webkit-animation-delay: $animation-delay*5;
+        animation-delay: $animation-delay*5;
+      }
+
+      #progress-redes{
+        -webkit-animation-name: progress-redes;
+        animation-name: progress-redes;
+        -webkit-animation-delay: $animation-delay*6;
+        animation-delay: $animation-delay*6;
+      }
+
+      #progress-ingles{
+        -webkit-animation-name: progress-ingles;
+        animation-name: progress-ingles;
         -webkit-animation-delay: $animation-delay*7;
         animation-delay: $animation-delay*7;
       }

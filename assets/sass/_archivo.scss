@@ -30,7 +30,6 @@ a {
     -moz-bakcground-size: cover;
     -o-background-size: cover;
     background-position: center center;
-
 }
 #sliderUno {
     background-image: url(../../img/fondo.jpg);
@@ -42,12 +41,10 @@ a {
     background-image: url(../../img/Magazine-Mockup-carousel.jpg);
 }
 .carousel-caption {
-    bottom: 12rem;
-}
-@media (min-width: 1200px) {
-    .carousel-caption{
-        bottom: 14rem;
-    }
+    position: absolute;
+    top: 35%;
+    right: 15%;
+    left: 15%;
 }
 .carousel-footer {
     position: absolute;
@@ -62,11 +59,9 @@ a {
     font-family: 'julius sans one', sans-serif;
     font-size: 1.5rem;
     font-weight: bolder;
-}
-@media (min-width:992px) {
-    #subtituloIndex { 
+    @media (min-width:992px){
         font-size: 2rem;
-    }
+    }     
 }
 #botonIndex {
     background-color: #FFD2A8;
@@ -85,9 +80,7 @@ a {
 /*barra de navegación*/
 .navbar {
     padding: .5rem 1rem .5rem 1rem;
-}
-@media (min-width: 992px) {
-    .navbar {
+    @media (min-width: 992px) {
         height: 4rem;
     }
 }
@@ -106,9 +99,7 @@ a {
 .navbar-toggler-icon {
     width: 1.5em;
     height: 1.5em;
-}
-@media (min-width: 576px) {
-    .navbar-toggler-icon {
+    @media (min-width: 576px) {
         width: 3em;
         height: 3em;
     }
@@ -147,7 +138,7 @@ a {
 }
 @media (min-width: 1200px) {
     .main_sobremi_descripcion {
-        font-size: 1.7rem;
+        font-size: 1.3rem;
     }
 }
 .main_sobremi_contenedor_fotopersonal {
@@ -196,6 +187,14 @@ a {
 #mainPortafolio {
     padding: 20px;
 }
+.descripcion_portafolio {
+    font: lighter 1rem 'julius sans one';
+    padding-top: 10px;
+    @media (min-width: 720px) {
+        padding: 10px 50px;
+        font-size: 1.3rem;
+    }
+}
 #contenedorPortafolio {
     display: flex;
     flex-direction: row;
@@ -216,7 +215,7 @@ a {
         padding: 10px;
     }
     @media (min-width:992px) {
-        padding: 30px 70px;
+        padding: 30px 10px;
     }
 }
 .appUno {
@@ -227,15 +226,6 @@ a {
         border: 5px solid #f7f7f7;
     }
 }
-.contenedorMagazine {
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-}
 .magazine {
     width: 300px;
     height: 286px;
@@ -243,15 +233,6 @@ a {
     &:hover {
         border: 5px solid #f7f7f7;
     }
-}
-.contenedorLush { 
-    padding: 20px 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-grow: 1;
 }
 .lush {
     width: 353px;
@@ -262,16 +243,13 @@ a {
     }
 }
 .contenedorBizia {
-    padding: 10px;
+    padding: 20px 10px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     flex-grow: 1;
-}
-.video_main_bizia {
-    height: auto;
 }
 .bizia {
     width: 328px;
@@ -281,20 +259,6 @@ a {
         border: 5px solid #f7f7f7;
     }
     object-fit: cover;
-}
-.contenedorGatorade { 
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-}
-.kitkat {
-    flex-grow: 1;
-    width: 443px;
-    height: auto;
 }
 /*Fotografía*/
 
