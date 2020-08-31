@@ -430,7 +430,7 @@ a {
   font-weight: lighter; }
   @media (min-width: 576px) {
     #tituloNombre {
-      font-size: 3rem; } }
+      font-size: 2.3rem; } }
 
 /*CAROUSEL*/
 .carousel-item {
